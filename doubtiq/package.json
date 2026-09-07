@@ -1,0 +1,27 @@
+{
+  "name": "doubtiq",
+  "version": "1.0.0",
+  "description": "DoubtIQ — a premium educational Q&A platform. Students browse curated questions & answers by subject; admins manage all content.",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "reset": "node server/reset.js",
+    "migrate": "node server/migrate.js",
+    "backup": "node server/backup.js",
+    "export": "node server/export.js",
+    "test-reliability": "node test-reliability.js",
+    "reset-stats": "node server/reset-stats.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "pg": "^8.23.0"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# DoubtIQ data — production database and backups MUST NOT enter the repo
+data/doubtiq.db
+data/doubtiq.db-wal
+data/doubtiq.db-shm
+data/backups/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

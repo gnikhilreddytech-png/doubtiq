@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoubtIQ — Curated Questions &amp; Answers</title>
+  <meta name="description" content="DoubtIQ is a curated Q&A library across Maths, Physics, Chemistry, Biology, Social Science and Hindi. Browse questions, read clear answers.">
+  <meta name="theme-color" content="#3d4fe3">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="DoubtIQ">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/css/base.css?v=30">
+</head>
+<body>
+  <!-- Topbar is injected by app.js (theme aware) -->
+
+  <main id="view" class="view">
+    <div class="container" style="color:var(--ink-3);font-size:13.5px;padding-top:30px">
+      Loading DoubtIQ…
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="f-brand brand" href="#/">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/><circle cx="12" cy="12" r="2.4"/></svg></span>
+            <span class="brand-word" style="font-size:17px">Doubt<span>IQ</span></span>
+          </a>
+          <p>A curated question-and-answer library. High-quality questions, clear expert answers, organised by subject — nothing else.</p>
+        </div>
+        <div>
+          <h4>Subjects</h4>
+          <ul id="footer-subjects">
+            <li>Maths</li><li>Physics</li><li>Chemistry</li><li>Biology</li><li>Social Science</li><li>Hindi</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#/questions">All questions</a></li>
+            <li><a href="#/subjects">Subjects</a></li>
+            <li><a href="#/search">Search</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul id="footer-pages">
+            <li><a href="#/page/about">About DoubtIQ</a></li>
+            <li><a href="#/page/how-to-use">How to use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <span>© <span id="foot-year"></span> DoubtIQ — a curated Q&amp;A library.</span>
+        <span>Students read. The editorial team writes.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/api.js?v=30"></script>
+  <script src="/js/icons.js?v=30"></script>
+  <script src="/js/components.js?v=32"></script>
+  <script src="/js/views/home.js?v=30"></script>
+  <script src="/js/views/questions.js?v=30"></script>
+  <script src="/js/views/subjects.js?v=30"></script>
+  <script src="/js/views/subject.js?v=30"></script>
+  <script src="/js/views/question.js?v=30"></script>
+  <script src="/js/views/search.js?v=30"></script>
+  <script src="/js/views/page.js?v=30"></script>
+  <script src="/js/app.js?v=30"></script>
+</body>
+</html>
