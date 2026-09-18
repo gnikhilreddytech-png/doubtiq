@@ -12,7 +12,7 @@ const { findPublishedQuestion } = require('../routes/public');
 
 const SITE_URL = (process.env.SITE_URL || 'https://doubtiq-1.onrender.com').replace(/\/+$/, '');
 
-const BOT_RE = /googlebot|bingbot|slurp|duckduckbot|baiduspider|yandex|facebookexternalhit|facebot|twitterbot|whatsapp|linkedinbot|pinterest|embedly|discordbot|telegrambot|semrushbot|ahrefsbot|petalbot|applebot|ia_archiver|archive\.org|prerender|preview|curl|wget|python-requests|python-urllib|go-http-client|axios/i;
+const BOT_RE = /googlebot|google-inspectiontool|bingbot|slurp|duckduckbot|baiduspider|yandex|facebookexternalhit|facebot|twitterbot|whatsapp|linkedinbot|pinterest|embedly|discordbot|telegrambot|semrushbot|ahrefsbot|petalbot|applebot|ia_archiver|archive\.org|prerender|preview|curl|wget|python-requests|python-urllib|go-http-client|axios/i;
 
 function isCrawler(req) {
   const ua = req.headers['user-agent'] || '';
